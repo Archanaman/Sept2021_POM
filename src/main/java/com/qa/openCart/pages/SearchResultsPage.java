@@ -23,7 +23,7 @@ public class SearchResultsPage {
 
 	public int getProductsListCount() {
 		int resultCount = eleutil.waitForElementsToBeVisible(productResults, 10, 2000).size();
-		System.out.println("the search product count: " + resultCount);
+		System.out.println("the search product count is: " + resultCount);
 		return resultCount;
 	}
 
